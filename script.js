@@ -1,1 +1,1 @@
-console.log("Portfolio website loaded");
+console.log("Fergus King Design Folio loaded");
