@@ -179,4 +179,55 @@ nav {
   .project {
     gap: 5px;
   }
+}html {
+  scroll-behavior: smooth;
+}
+
+.project {
+  opacity: 0;
+  transform: translateY(60px);
+  transition: all 1s ease;
+}
+
+.project.show {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.image-strip div {
+  transition: transform 0.25s ease;
+  transform-style: preserve-3d;
+  cursor: pointer;
+}
+
+.project:hover {
+  transform: translateX(10px);
+}
+
+nav {
+  transition: all 0.3s ease;
+}
+
+nav:hover {
+  transform: translateY(-2px);
+}
+
+.hero h1 {
+  animation: fadeUp 1.2s ease;
+}
+
+.intro {
+  animation: fadeUp 1.5s ease;
+}
+
+@keyframes fadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(60px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
