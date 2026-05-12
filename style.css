@@ -1,0 +1,31 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f4f1ea;
+  color: #222;
+}
+
+header {
+  padding: 100px 40px;
+  background: #d8d1c5;
+}
+
+section {
+  padding: 60px 40px;
+}
+
+h1 {
+  font-size: 60px;
+  margin-bottom: 10px;
+}
+
+h2 {
+  margin-bottom: 20px;
+}
+
+.project-card {
+  background: white;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
